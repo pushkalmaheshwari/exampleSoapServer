@@ -4,15 +4,13 @@ import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.pushkal.JaxWS.Category.Stock;
-
 public class Category {
 
 	
 	 public int CategoryId;
 	    public String Name;
 	    public String Description;
-	    public List<Stock> Stocks;
+	    protected List<Category.Stock> Stocks;
 	    
 	    public Category(){}
 	    
@@ -28,7 +26,7 @@ public class Category {
 	        	Stocks.add(stock);
 	        }
 	    }
-	    public static class Stock {
+	    private static class Stock {
 
 	        protected BigInteger sku;
 	        protected BigInteger stockAnt;

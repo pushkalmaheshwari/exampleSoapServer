@@ -6,6 +6,8 @@ import javax.jws.WebService;
 @WebService
 public interface HelloWorld {
 	 @WebMethod public String helloWorld(String name);  
-	 @WebMethod public Category GetCategoryById(Category c);
+//	 @WebMethod public Category GetCategoryById(Category c);
 	 @WebMethod public Category[] getAllCategories();
+	 
+	 @WebMethod public StockOnlineResp OnlineStock(StockOnlineReq req);
 }
