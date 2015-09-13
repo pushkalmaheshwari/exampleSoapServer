@@ -15,23 +15,23 @@ import java.util.List;
 
 
 
-public class StockOnlineResp  {
+public class stock_online_resp  {
 
-    protected BigInteger codResp;
-    protected String msgResp;
-    protected String descArt;
-    protected String descLocal;
+    protected BigInteger code_resp;
+    protected String msg_resp;
+    protected String desc_art;
+    protected String desc_local;
     protected BigInteger sku;
     protected BigInteger ean;
     protected List<Stock> stock;
     
-    public void setStock(List<StockOnlineResp.Stock> stock) {
+    public void setStock(List<stock_online_resp.Stock> stock) {
 		this.stock = stock;
 	}
 
 
 
-	public StockOnlineResp() {
+	public stock_online_resp() {
     	/*
         if (stock == null) {
             stock = new ArrayList<Stock>();
@@ -49,7 +49,7 @@ public class StockOnlineResp  {
      *     
      */
     public BigInteger getCodResp() {
-        return codResp;
+        return code_resp;
     }
 
     /**
@@ -61,7 +61,7 @@ public class StockOnlineResp  {
      *     
      */
     public void setCodResp(BigInteger value) {
-        this.codResp = value;
+        this.code_resp = value;
     }
 
     /**
@@ -73,7 +73,7 @@ public class StockOnlineResp  {
      *     
      */
     public String getMsgResp() {
-        return msgResp;
+        return msg_resp;
     }
 
     /**
@@ -85,7 +85,7 @@ public class StockOnlineResp  {
      *     
      */
     public void setMsgResp(String value) {
-        this.msgResp = value;
+        this.msg_resp = value;
     }
 
     /**
@@ -97,7 +97,7 @@ public class StockOnlineResp  {
      *     
      */
     public String getDescArt() {
-        return descArt;
+        return desc_art;
     }
 
     /**
@@ -109,7 +109,7 @@ public class StockOnlineResp  {
      *     
      */
     public void setDescArt(String value) {
-        this.descArt = value;
+        this.desc_art = value;
     }
 
     /**
@@ -121,7 +121,7 @@ public class StockOnlineResp  {
      *     
      */
     public String getDescLocal() {
-        return descLocal;
+        return desc_local;
     }
 
     /**
@@ -133,7 +133,7 @@ public class StockOnlineResp  {
      *     
      */
     public void setDescLocal(String value) {
-        this.descLocal = value;
+        this.desc_local = value;
     }
 
     /**
@@ -202,13 +202,13 @@ public class StockOnlineResp  {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link StockOnlineResp.Stock }
+     * {@link stock_online_resp.Stock }
      * 
      * 
      */
-    public List<StockOnlineResp.Stock> getStock() {
+    public List<stock_online_resp.Stock> getStock() {
         if (stock == null) {
-            stock = new ArrayList<StockOnlineResp.Stock>();
+            stock = new ArrayList<stock_online_resp.Stock>();
         }
         return this.stock;
     }
@@ -219,11 +219,11 @@ public class StockOnlineResp  {
     public static class Stock {
 
         protected BigInteger sku;
-        protected BigInteger stockAnt;
+        protected BigInteger stock_ant;
         protected BigInteger ventas;
-        protected BigInteger notaCredito;
-        protected BigInteger stockAct;
-        protected BigInteger mesAntiguedad;
+        protected BigInteger nota_credito;
+        protected BigInteger stock_act;
+        protected BigInteger mes_antiguedad;
         protected String talla;
         protected String color;
 
@@ -260,7 +260,7 @@ public class StockOnlineResp  {
          *     
          */
         public BigInteger getStockAnt() {
-            return stockAnt;
+            return stock_ant;
         }
 
         /**
@@ -272,7 +272,7 @@ public class StockOnlineResp  {
          *     
          */
         public void setStockAnt(BigInteger value) {
-            this.stockAnt = value;
+            this.stock_ant = value;
         }
 
         /**
@@ -308,7 +308,7 @@ public class StockOnlineResp  {
          *     
          */
         public BigInteger getNotaCredito() {
-            return notaCredito;
+            return nota_credito;
         }
 
         /**
@@ -320,7 +320,7 @@ public class StockOnlineResp  {
          *     
          */
         public void setNotaCredito(BigInteger value) {
-            this.notaCredito = value;
+            this.nota_credito = value;
         }
 
         /**
@@ -332,7 +332,7 @@ public class StockOnlineResp  {
          *     
          */
         public BigInteger getStockAct() {
-            return stockAct;
+            return stock_act;
         }
 
         /**
@@ -344,7 +344,7 @@ public class StockOnlineResp  {
          *     
          */
         public void setStockAct(BigInteger value) {
-            this.stockAct = value;
+            this.stock_act = value;
         }
 
         /**
@@ -356,7 +356,7 @@ public class StockOnlineResp  {
          *     
          */
         public BigInteger getMesAntiguedad() {
-            return mesAntiguedad;
+            return mes_antiguedad;
         }
 
         /**
@@ -368,7 +368,7 @@ public class StockOnlineResp  {
          *     
          */
         public void setMesAntiguedad(BigInteger value) {
-            this.mesAntiguedad = value;
+            this.mes_antiguedad = value;
         }
 
         /**

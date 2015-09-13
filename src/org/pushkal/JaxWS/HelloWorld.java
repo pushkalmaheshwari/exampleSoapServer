@@ -9,5 +9,5 @@ public interface HelloWorld {
 //	 @WebMethod public Category GetCategoryById(Category c);
 	 @WebMethod public Category[] getAllCategories();
 	 
-	 @WebMethod public StockOnlineResp OnlineStock(StockOnlineReq req);
+	 @WebMethod public stock_online_resp OnlineStock(stock_online_req req);
 }

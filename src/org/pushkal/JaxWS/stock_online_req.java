@@ -9,11 +9,11 @@
 package org.pushkal.JaxWS;
 
 import java.math.BigInteger;
-public class StockOnlineReq {
+public class stock_online_req {
 
-    protected BigInteger localConsulta;
+    protected BigInteger local_consulta;
     protected String lector;
-    protected BigInteger skuEan;
+    protected BigInteger sku_ean;
 
     /**
      * Gets the value of the localConsulta property.
@@ -24,7 +24,7 @@ public class StockOnlineReq {
      *     
      */
     public BigInteger getLocalConsulta() {
-        return localConsulta;
+        return local_consulta;
     }
 
     /**
@@ -36,7 +36,7 @@ public class StockOnlineReq {
      *     
      */
     public void setLocalConsulta(BigInteger value) {
-        this.localConsulta = value;
+        this.local_consulta = value;
     }
 
     /**
@@ -72,7 +72,7 @@ public class StockOnlineReq {
      *     
      */
     public BigInteger getSkuEan() {
-        return skuEan;
+        return sku_ean;
     }
 
     /**
@@ -84,7 +84,7 @@ public class StockOnlineReq {
      *     
      */
     public void setSkuEan(BigInteger value) {
-        this.skuEan = value;
+        this.sku_ean = value;
     }
 
 }

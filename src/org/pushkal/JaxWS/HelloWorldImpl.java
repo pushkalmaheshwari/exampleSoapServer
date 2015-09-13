@@ -5,7 +5,7 @@ import java.math.BigInteger;
 
 import javax.jws.WebService;
 
-import org.pushkal.JaxWS.StockOnlineResp.Stock;
+import org.pushkal.JaxWS.stock_online_resp.Stock;
 
 @WebService(endpointInterface="org.pushkal.JaxWS.HelloWorld")
 public class HelloWorldImpl implements HelloWorld {
@@ -74,9 +74,9 @@ public class HelloWorldImpl implements HelloWorld {
 	}
 
 	@Override
-	public StockOnlineResp OnlineStock(StockOnlineReq req) {
+	public stock_online_resp OnlineStock(stock_online_req req) {
 
-		StockOnlineResp stockResp = new StockOnlineResp();
+		stock_online_resp stockResp = new stock_online_resp();
 		
 		stockResp.setSku( BigInteger.valueOf(102353));
 		stockResp.setCodResp(BigInteger.valueOf(1023533));
