@@ -48,7 +48,7 @@ public class stock_online_resp  {
      *     {@link BigInteger }
      *     
      */
-    public BigInteger getCodResp() {
+    public BigInteger getCod_resp() {
         return code_resp;
     }
 
@@ -60,7 +60,7 @@ public class stock_online_resp  {
      *     {@link BigInteger }
      *     
      */
-    public void setCodResp(BigInteger value) {
+    public void setCod_resp(BigInteger value) {
         this.code_resp = value;
     }
 
@@ -72,7 +72,7 @@ public class stock_online_resp  {
      *     {@link String }
      *     
      */
-    public String getMsgResp() {
+    public String getMsg_resp() {
         return msg_resp;
     }
 
@@ -84,7 +84,7 @@ public class stock_online_resp  {
      *     {@link String }
      *     
      */
-    public void setMsgResp(String value) {
+    public void setMsg_resp(String value) {
         this.msg_resp = value;
     }
 
@@ -96,7 +96,7 @@ public class stock_online_resp  {
      *     {@link String }
      *     
      */
-    public String getDescArt() {
+    public String getDesc_art() {
         return desc_art;
     }
 
@@ -108,7 +108,7 @@ public class stock_online_resp  {
      *     {@link String }
      *     
      */
-    public void setDescArt(String value) {
+    public void setDesc_art(String value) {
         this.desc_art = value;
     }
 
@@ -120,7 +120,7 @@ public class stock_online_resp  {
      *     {@link String }
      *     
      */
-    public String getDescLocal() {
+    public String getDesc_local() {
         return desc_local;
     }
 
@@ -132,7 +132,7 @@ public class stock_online_resp  {
      *     {@link String }
      *     
      */
-    public void setDescLocal(String value) {
+    public void setDesc_local(String value) {
         this.desc_local = value;
     }
 
@@ -259,7 +259,7 @@ public class stock_online_resp  {
          *     {@link BigInteger }
          *     
          */
-        public BigInteger getStockAnt() {
+        public BigInteger getStock_ant() {
             return stock_ant;
         }
 
@@ -271,7 +271,7 @@ public class stock_online_resp  {
          *     {@link BigInteger }
          *     
          */
-        public void setStockAnt(BigInteger value) {
+        public void setStock_ant(BigInteger value) {
             this.stock_ant = value;
         }
 
@@ -307,7 +307,7 @@ public class stock_online_resp  {
          *     {@link BigInteger }
          *     
          */
-        public BigInteger getNotaCredito() {
+        public BigInteger getNota_credito() {
             return nota_credito;
         }
 
@@ -319,7 +319,7 @@ public class stock_online_resp  {
          *     {@link BigInteger }
          *     
          */
-        public void setNotaCredito(BigInteger value) {
+        public void setNot_credito(BigInteger value) {
             this.nota_credito = value;
         }
 
@@ -331,7 +331,7 @@ public class stock_online_resp  {
          *     {@link BigInteger }
          *     
          */
-        public BigInteger getStockAct() {
+        public BigInteger getStock_act() {
             return stock_act;
         }
 
@@ -343,7 +343,7 @@ public class stock_online_resp  {
          *     {@link BigInteger }
          *     
          */
-        public void setStockAct(BigInteger value) {
+        public void setStock_act(BigInteger value) {
             this.stock_act = value;
         }
 
@@ -355,7 +355,7 @@ public class stock_online_resp  {
          *     {@link BigInteger }
          *     
          */
-        public BigInteger getMesAntiguedad() {
+        public BigInteger getMes_antiguedad() {
             return mes_antiguedad;
         }
 
@@ -367,7 +367,7 @@ public class stock_online_resp  {
          *     {@link BigInteger }
          *     
          */
-        public void setMesAntiguedad(BigInteger value) {
+        public void setMes_antiguedad(BigInteger value) {
             this.mes_antiguedad = value;
         }
 

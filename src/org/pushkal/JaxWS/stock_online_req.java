@@ -23,7 +23,7 @@ public class stock_online_req {
      *     {@link BigInteger }
      *     
      */
-    public BigInteger getLocalConsulta() {
+    public BigInteger getLocal_consulta() {
         return local_consulta;
     }
 
@@ -35,7 +35,7 @@ public class stock_online_req {
      *     {@link BigInteger }
      *     
      */
-    public void setLocalConsulta(BigInteger value) {
+    public void setLocal_consulta(BigInteger value) {
         this.local_consulta = value;
     }
 
@@ -71,7 +71,7 @@ public class stock_online_req {
      *     {@link BigInteger }
      *     
      */
-    public BigInteger getSkuEan() {
+    public BigInteger getSku_ean() {
         return sku_ean;
     }
 
@@ -83,7 +83,7 @@ public class stock_online_req {
      *     {@link BigInteger }
      *     
      */
-    public void setSkuEan(BigInteger value) {
+    public void setSku_ean(BigInteger value) {
         this.sku_ean = value;
     }
 

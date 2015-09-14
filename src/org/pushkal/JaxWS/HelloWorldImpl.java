@@ -79,20 +79,20 @@ public class HelloWorldImpl implements HelloWorld {
 		stock_online_resp stockResp = new stock_online_resp();
 		
 		stockResp.setSku( BigInteger.valueOf(102353));
-		stockResp.setCodResp(BigInteger.valueOf(1023533));
-		stockResp.setDescLocal("Taj Mahal ");
+		stockResp.setCod_resp(BigInteger.valueOf(1023533));
+		stockResp.setDesc_local("Taj Mahal ");
 		stockResp.setEan(BigInteger.valueOf(11111));
-		stockResp.setMsgResp("we gave you what you wanted");
-		stockResp.setDescArt("Art of Anurag.");
+		stockResp.setMsg_resp("we gave you what you wanted");
+		stockResp.setDesc_art("Art of Anurag.");
 
 		List <Stock> stList = new ArrayList<Stock>();
 		Stock st = new Stock();
 		st.setColor("Black");
-		st.setMesAntiguedad(  BigInteger.valueOf(10));
-		st.setNotaCredito(BigInteger.valueOf(10));
+		st.setMes_antiguedad(  BigInteger.valueOf(10));
+		st.setNot_credito(BigInteger.valueOf(10));
 		st.setSku(BigInteger.valueOf(10));
-		st.setStockAct(BigInteger.valueOf(10));
-		st.setStockAnt(BigInteger.valueOf(10));
+		st.setStock_act(BigInteger.valueOf(10));
+		st.setStock_ant(BigInteger.valueOf(10));
 		st.setTalla("Talla");
 		st.setVentas(BigInteger.valueOf(10));
 		stList.add(st);
@@ -101,11 +101,11 @@ public class HelloWorldImpl implements HelloWorld {
 		
 		Stock st1 = new Stock();
 		st1.setColor("red");
-		st1.setMesAntiguedad(BigInteger.valueOf(10));
-		st1.setNotaCredito(BigInteger.valueOf(10));
+		st1.setMes_antiguedad(BigInteger.valueOf(10));
+		st1.setNot_credito(BigInteger.valueOf(10));
 		st1.setSku(BigInteger.valueOf(10));
-		st1.setStockAct(BigInteger.valueOf(10));
-		st1.setStockAnt(BigInteger.valueOf(10));
+		st1.setStock_act(BigInteger.valueOf(10));
+		st1.setStock_ant(BigInteger.valueOf(10));
 		st1.setTalla("Talla1");
 		st1.setVentas(BigInteger.valueOf(10));
 		stList.add(st1);
