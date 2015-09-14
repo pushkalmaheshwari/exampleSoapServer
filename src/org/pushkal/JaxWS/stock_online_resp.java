@@ -319,7 +319,7 @@ public class stock_online_resp  {
          *     {@link BigInteger }
          *     
          */
-        public void setNot_credito(BigInteger value) {
+        public void setNota_credito(BigInteger value) {
             this.nota_credito = value;
         }
 

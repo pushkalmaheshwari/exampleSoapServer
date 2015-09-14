@@ -89,7 +89,7 @@ public class HelloWorldImpl implements HelloWorld {
 		Stock st = new Stock();
 		st.setColor("Black");
 		st.setMes_antiguedad(  BigInteger.valueOf(10));
-		st.setNot_credito(BigInteger.valueOf(10));
+		st.setNota_credito(BigInteger.valueOf(10));
 		st.setSku(BigInteger.valueOf(10));
 		st.setStock_act(BigInteger.valueOf(10));
 		st.setStock_ant(BigInteger.valueOf(10));
@@ -102,7 +102,7 @@ public class HelloWorldImpl implements HelloWorld {
 		Stock st1 = new Stock();
 		st1.setColor("red");
 		st1.setMes_antiguedad(BigInteger.valueOf(10));
-		st1.setNot_credito(BigInteger.valueOf(10));
+		st1.setNota_credito(BigInteger.valueOf(10));
 		st1.setSku(BigInteger.valueOf(10));
 		st1.setStock_act(BigInteger.valueOf(10));
 		st1.setStock_ant(BigInteger.valueOf(10));
